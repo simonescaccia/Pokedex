@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.InfoActivity">
+
+    <ImageView
+        android:id="@+id/iv_pokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/height_imageback_medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/hello_world" />
+
+    <LinearLayout
+        android:id="@+id/ll_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_fragmenttitlecv_medium"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_pokemon">
+
+        <TextView
+            android:id="@+id/tv_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/text_itempokemon_medium"
+            android:textColor="@color/text_dark"
+            android:text="@string/group" />
+
+        <TextView
+            android:id="@+id/tv_group_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/text_itempokemon_large"
+            android:textColor="@color/text_dark"
+            android:text="@string/teslas" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_project_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_fragmenttitlecv_medium"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_group">
+
+        <TextView
+            android:id="@+id/tv_manager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/text_itempokemon_medium"
+            android:textColor="@color/text_dark"
+            android:text="@string/group_manager" />
+
+        <TextView
+            android:id="@+id/tv_manager_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/text_itempokemon_large"
+            android:textColor="@color/text_dark"
+            android:text="@string/simone_scaccia" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tv_name_stat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/margin_text_stats_small"
+            android:layout_marginTop="@dimen/margin_textfromborder_large"
+            android:layout_marginBottom="@dimen/margin_textfromborder_large"
+            android:layout_weight="2"
+            android:gravity="end"
+            android:textSize="@dimen/text_statistics_medium"
+            android:textStyle="bold"/>
+
+        <ProgressBar
+            android:id="@+id/pb_stat_value"
+            style="@style/CustomProgressBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/margin_prog_bar_medium"
+            android:layout_weight="5" />
+
+        <TextView
+            android:id="@+id/tv_stat_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/margin_textfromborder_large"
+            android:layout_marginBottom="@dimen/margin_textfromborder_large"
+            android:layout_marginEnd="@dimen/margin_text_stats_small"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textSize="@dimen/text_statistics_medium"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

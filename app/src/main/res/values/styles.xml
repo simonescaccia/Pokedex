@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_theme</item>
+    </style>
+
+    <style name="CharacteristicsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="CustomProgressBar" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/custom_progress_bar_horizontal</item>
+        <item name="android:minHeight">@dimen/height_progress_bar_medium</item>
+        <item name="android:maxHeight">@dimen/height_progress_bar_large</item>
+    </style>
+
+</resources>

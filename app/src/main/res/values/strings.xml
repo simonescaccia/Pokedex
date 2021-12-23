@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Pokédex</string>
+    <string name="pokedex" translatable="false">Pokédex</string>
+    <string name="imagebackground">Background Image</string>
+    <string name="pokename" translatable="false">%1$s%2$s</string>
+    <string name="pokemon_image">Pokémon image</string>
+    <string name="abilities">Abilities</string>
+    <string name="hidden">Hidden</string>
+    <string name="noAbility">This Pokémon has no ability</string>
+    <string name="arrow">Arrow</string>
+    <string name="moves">Moves</string>
+    <string name="power">Power</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="pp" translatable="false">PP</string>
+    <string name="damage_class">Damage</string>
+    <string name="noMoves">Empty move set</string>
+    <string name="empty_move_list">No moves specified for this Pokémon</string>
+    <string name="statistics">Statistics</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="statistics_base">Base Statistics</string>
+    <string name="kg" translatable="false">%1$.2f kg</string>
+    <string name="m" translatable="false">%1$.2f m</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_info" translatable="false">Info</string>
+    <string name="sort_by">Sort By</string>
+    <string name="sort_by_number">Number</string>
+    <string name="sort_by_name">Name</string>
+    <string name="sort_by_type">Type</string>
+    <string name="sort_by_number_desc">Number desc.</string>
+    <string name="empty_pokemon_list">No Pokémon found</string>
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="menu_remove_all">Remove all</string>
+    <string name="teslas" translatable="false">TeslaS</string>
+    <string name="group">Group</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="group_manager">Group manager</string>
+    <string name="simone_scaccia" translatable="false">Simone Scaccia</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pokédex</string>
+    <string name="imagebackground">Immagine di sfondo</string>
+    <string name="pokemon_image">Immagine del Pokémon</string>
+    <string name="abilities">Abilità</string>
+    <string name="hidden">Nascosto</string>
+    <string name="noAbility">Questo Pokémon non possiede abilità</string>
+    <string name="arrow">Freccia</string>
+    <string name="moves">Mosse</string>
+    <string name="power">Potenza</string>
+    <string name="accuracy">Precisione</string>
+    <string name="damage_class">Danno</string>
+    <string name="noMoves">Nessuna mossa presente</string>
+    <string name="empty_move_list">Nessuna mossa specificata per questo Pokémon</string>
+    <string name="statistics">Statistiche</string>
+    <string name="weight">Peso</string>
+    <string name="height">Altezza</string>
+    <string name="statistics_base">Statistiche Base</string>
+    <string name="menu_search">Cerca</string>
+    <string name="menu_favorite">Preferiti</string>
+    <string name="sort_by">Ordina</string>
+    <string name="sort_by_number">Numero</string>
+    <string name="sort_by_name">Nome</string>
+    <string name="sort_by_type">Tipo</string>
+    <string name="sort_by_number_desc">Numero dec.</string>
+    <string name="empty_pokemon_list">Nessun Pokémon trovato</string>
+    <string name="favorite">Preferiti</string>
+    <string name="menu_remove_all">Rimuovi tutti</string>
+    <string name="group">Gruppo</string>
+    <string name="group_manager">Responsabile</string>
+</resources>

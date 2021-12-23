@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_splash_medium">200dp</dimen>
+    <dimen name="pokemon_splash_medium">80dp</dimen>
+    <dimen name="padding_rv_medium">8dp</dimen>
+    <dimen name="padding_imageleftright_medium">2dp</dimen>
+    <dimen name="margin_textfromborder_medium">6dp</dimen>
+    <dimen name="margin_textfromborder_large">8dp</dimen>
+    <dimen name="height_imageback_medium">80dp</dimen>
+    <dimen name="width_imageback_medium">84dp</dimen>
+    <dimen name="text_itempokemon_medium">13sp</dimen>
+    <dimen name="text_itempokemon_large">16sp</dimen>
+    <dimen name="margin_textitem_medium">10dp</dimen>
+    <dimen name="elevation_main_medium">4dp</dimen>
+    <dimen name="radius_main_medium">8dp</dimen>
+    <dimen name="padding_poketype_medium">6dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="margin_imgfragment_medium">10dp</dimen>
+    <dimen name="width_imagefragment_min">100dp</dimen>
+    <dimen name="height_imagefragment_min">100dp</dimen>
+    <dimen name="text_fragmenttitlecv_medium">16sp</dimen>
+    <dimen name="margin_fragmenttitlecv_medium">10dp</dimen>
+    <dimen name="text_fragmentcvdescription_medium">14sp</dimen>
+    <dimen name="margin_fragmenttitlecv_small">5dp</dimen>
+    <dimen name="text_fragmenttitlecv_small">14sp</dimen>
+    <dimen name="text_statistics_medium">14sp</dimen>
+    <dimen name="margin_text_stats_small">3dp</dimen>
+    <dimen name="margin_prog_bar_medium">5dp</dimen>
+    <dimen name="height_progress_bar_medium">15dp</dimen>
+    <dimen name="height_progress_bar_large">30dp</dimen>
+    <dimen name="icon_menu_medium">40dp</dimen>
+    <dimen name="height_tab_indicator">8dp</dimen>
+    <item name="alpha" type="dimen" format="float">0.9</item>
+</resources>

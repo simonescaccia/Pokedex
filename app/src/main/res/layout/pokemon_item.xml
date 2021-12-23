@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_pokemon"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/radius_main_medium"
+    app:cardElevation="@dimen/elevation_main_medium"
+    android:layout_marginTop="@dimen/padding_rv_medium"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_imageback"
+            android:layout_width="@dimen/width_imageback_medium"
+            android:layout_height="@dimen/height_imageback_medium"
+            android:background="@drawable/shape_backgroundimage"
+            android:contentDescription="@string/imagebackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_pokeImage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/padding_imageleftright_medium"
+            android:layout_marginEnd="@dimen/padding_imageleftright_medium"
+            android:contentDescription="@string/pokemon_image"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_imageback"
+            app:layout_constraintEnd_toEndOf="@+id/iv_imageback"
+            app:layout_constraintStart_toStartOf="@+id/iv_imageback"
+            app:layout_constraintTop_toTopOf="@+id/iv_imageback" />
+
+        <TextView
+            android:id="@+id/tv_pokeNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_textitem_medium"
+            android:textSize="@dimen/text_itempokemon_large"
+            app:layout_constraintBottom_toTopOf="@+id/tv_type1"
+            app:layout_constraintStart_toEndOf="@+id/iv_imageback"
+            app:layout_constraintTop_toTopOf="@+id/iv_imageback" />
+
+        <TextView
+            android:id="@+id/tv_pokeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_textitem_medium"
+            android:textSize="@dimen/text_itempokemon_large"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/tv_pokeNumber"
+            app:layout_constraintTop_toTopOf="@+id/tv_pokeNumber" />
+
+        <TextView
+            android:id="@+id/tv_type1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_textitem_medium"
+            android:layout_marginBottom="@dimen/margin_textfromborder_medium"
+            android:background="@drawable/shape_bordertext"
+            android:textSize="@dimen/text_itempokemon_medium"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_imageback"
+            app:layout_constraintStart_toEndOf="@+id/iv_imageback" />
+
+        <TextView
+            android:id="@+id/tv_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_textitem_medium"
+            android:layout_marginBottom="@dimen/margin_textfromborder_medium"
+            android:background="@drawable/shape_bordertext"
+            android:textSize="@dimen/text_itempokemon_medium"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_imageback"
+            app:layout_constraintStart_toEndOf="@+id/tv_type1" />
+
+        <ImageView
+            android:id="@+id/iv_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/padding_imageleftright_medium"
+            android:contentDescription="@string/favorite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_pokeName"
+            app:srcCompat="@drawable/ic_not_favorite_item" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
