@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/simon/Documents/GitHub/Pokedex/app/src/main/res/layout/activity_characteristics.xml" value="0.1" />
+        <entry key="..\:/Users/simon/Documents/GitHub/Pokedex/app/src/main/res/layout/activity_favorite.xml" value="0.25" />
+        <entry key="..\:/Users/simon/Documents/GitHub/Pokedex/app/src/main/res/layout/moves_card_info.xml" value="0.1" />
+        <entry key="..\:/Users/simon/Documents/GitHub/Pokedex/app/src/main/res/layout/pokemon_item.xml" value="0.25" />
         <entry key="..\:/Users/simon/Dropbox/MobileProgramming/Progetti/ProgettoFinale/Pokedex/app/src/main/res/drawable-anydpi/ic_action.xml" value="0.2203125" />
         <entry key="..\:/Users/simon/Dropbox/MobileProgramming/Progetti/ProgettoFinale/Pokedex/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.2203125" />
         <entry key="..\:/Users/simon/Dropbox/MobileProgramming/Progetti/ProgettoFinale/Pokedex/app/src/main/res/drawable-anydpi/ic_arrow.xml" value="0.2203125" />
